@@ -8,11 +8,12 @@
 
 import UIKit
 
-class EventsModelController {
+final class EventsModelController {
     
-    public private(set) var events: [Event] = []
+    public private(set) var events: [Event]
     
     init() {
+        events = []
         events.append(Event(name: "Event 1", location: "Location 1", date: Date()))
         events.append(Event(name: "Event 2", location: "Location 2", date: Date()))
         events.append(Event(name: "Event 3", location: "Location 3", date: Date()))

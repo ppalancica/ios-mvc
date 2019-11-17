@@ -10,7 +10,7 @@
 
 import UIKit
 
-class EventsViewController: UIViewController {
+final class EventsViewController: UIViewController {
 
     @IBOutlet private weak var eventsTableView: UITableView!
     

@@ -69,39 +69,11 @@
 			isa = PBXGroup;
 			children = (
 				B4A9323D238089AB00667AC5 /* App */,
-				B4A9323C2380899F00667AC5 /* Controllers */,
-				B4A9323B2380899900667AC5 /* Views */,
-				B4A9323A2380898600667AC5 /* Models */,
-				B4A9322F2380876100667AC5 /* Assets.xcassets */,
+				B4A9324D23816BED00667AC5 /* Home */,
+				B4A9324C23816BE400667AC5 /* Events */,
 				B4A932342380876100667AC5 /* Info.plist */,
 			);
 			path = MusicEvents;
-			sourceTree = "<group>";
-		};
-		B4A9323A2380898600667AC5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B4A9324823809B9E00667AC5 /* Event.swift */,
-				B4A9324A23809C2A00667AC5 /* EventsModelController.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		B4A9323B2380899900667AC5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B4A93243238095AB00667AC5 /* Events */,
-				B4A932422380959C00667AC5 /* Home */,
-				B4A932312380876100667AC5 /* LaunchScreen.storyboard */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B4A9323C2380899F00667AC5 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B4A9323D238089AB00667AC5 /* App */ = {
@@ -109,20 +81,65 @@
 			children = (
 				B4A932262380875D00667AC5 /* AppDelegate.swift */,
 				B4A932282380875D00667AC5 /* SceneDelegate.swift */,
+				B4A9325423816C8400667AC5 /* Resources */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		B4A932422380959C00667AC5 /* Home */ = {
+		B4A9324C23816BE400667AC5 /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				B4A9322A2380875D00667AC5 /* HomeViewController.swift */,
-				B4A9322C2380875D00667AC5 /* Main.storyboard */,
+				B4A9325323816C1D00667AC5 /* Controller */,
+				B4A9325223816C1800667AC5 /* View */,
+				B4A9325123816C1400667AC5 /* Model */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		B4A9324D23816BED00667AC5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9325023816C0B00667AC5 /* Controller */,
+				B4A9324F23816C0400667AC5 /* View */,
+				B4A9324E23816BFE00667AC5 /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		B4A93243238095AB00667AC5 /* Events */ = {
+		B4A9324E23816BFE00667AC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4A9324F23816C0400667AC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9322A2380875D00667AC5 /* HomeViewController.swift */,
+				B4A9322C2380875D00667AC5 /* Main.storyboard */,
+				B4A932312380876100667AC5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4A9325023816C0B00667AC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4A9325123816C1400667AC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9324823809B9E00667AC5 /* Event.swift */,
+				B4A9324A23809C2A00667AC5 /* EventsModelController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4A9325223816C1800667AC5 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				B4A9323E2380930E00667AC5 /* EventsViewController.swift */,
@@ -130,7 +147,22 @@
 				B4A93244238098C600667AC5 /* EventTableViewCell.swift */,
 				B4A93245238098C600667AC5 /* EventTableViewCell.xib */,
 			);
-			path = Events;
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4A9325323816C1D00667AC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4A9325423816C8400667AC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9322F2380876100667AC5 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
